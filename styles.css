@@ -70,23 +70,21 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  background-color: white;
   transition: all .5s;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(10deg);
 }
 .tag {
-  background-color: #efefef;
-  color: black;
-  padding: 10px;
+  color: white;
+  padding: 5px 1px;
   border-radius: 5px;
   display: table;
-  margin: 10px auto;
-} 
+  margin: 5px auto;  
+}
 .location {
-  background-color: #222;
-  color: yellow;
+  color: white;
 }
 .card {
   margin: 30px;
@@ -180,7 +178,7 @@ a.social:hover {
   }
 
   header {
-    min-height: 470px;
+    min-height: 400px;
   }
 
   .nav {
