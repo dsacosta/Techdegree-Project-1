@@ -132,6 +132,10 @@ footer ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  display:flex;
+  display:flex;
+  justify-content: center;
+  display: center;
 }
 
 footer ul li {
@@ -160,11 +164,11 @@ a.social:hover {
 .clearfix {
   clear: both;
 }
-
 /* Contact Form Styling */
 
 .flex-contact {
   display: block;
+  align-content: center;
 }
 
 /* Style inputs with type="text", select elements and textareas */
@@ -239,6 +243,5 @@ input[type=submit]:hover {
     max-width: 1200px;
     margin: 40px auto;
   }
-
 }
 
