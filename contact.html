@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>David Acosta's Profile</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet"></head>
+  <body>
+
+    <div class="main-nav">
+        <ul class="nav">
+          <li class="name">//David Acosta</li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <header class="contactPage">
+      <img src="images/me.png" alt="Drawing of OctoPunk" class="profile-image">
+    </header>
+
+    <main class="flex-contact">
+        <div class="boxMessage">
+                <h2>Let's talk!</h2>
+                <p>Fill out the contact form below to get in touch with me.</p>
+        </div>
+
+        <div class="container">
+            <form action="action_page.php">
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div> 
+
+    </main>
+    <footer>
+      <ul>
+        <li><a href="https://twitter.com/devjrny" class="social twitter">Twitter</a></li>
+        <li><a href="https://github.com/dsacosta" class="social github">Github</a></li>
+      </ul>
+      <p class="copyright">Copyright 2018, David Acosta</p>
+    </footer>
+  </body>
+  </html>
