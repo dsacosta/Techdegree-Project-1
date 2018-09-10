@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/home.jpg') no-repeat top center ;
+  background: url('images/new_background.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -135,7 +135,6 @@ footer ul {
   display:flex;
   display:flex;
   justify-content: center;
-  display: center;
 }
 
 footer ul li {
@@ -213,7 +212,6 @@ input[type=submit]:hover {
       display: -ms-flexbox;      /* TWEENER - IE 10 */
       display: flex; 
       max-width: 1200px;
-      -ms-flex-pack: distribute;
       justify-content: space-around;
       margin: 0 auto;
   }
@@ -228,7 +226,6 @@ input[type=submit]:hover {
     max-width: 1200px;
     padding: 0 30px;
   }
-
 
   main {
     padding-top: 20px;
