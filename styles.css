@@ -69,9 +69,9 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
+  border-radius: 25px;
   background-color: white;
-  transition: all .5s;
+  transition: all .2s;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(10deg);
@@ -133,7 +133,6 @@ footer ul {
   margin: 0;
   padding: 0;
   display:flex;
-  display:flex;
   justify-content: center;
 }
 
@@ -163,7 +162,10 @@ a.social:hover {
 .clearfix {
   clear: both;
 }
-/* Contact Form Styling */
+
+/*******************************************
+ Contact Form Styling - Contact Page
+ *******************************************/
 
 .flex-contact {
   display: block;
